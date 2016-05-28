@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="telljoke.telljoke">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/telljoke/build/libs/telljoke.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
