@@ -19,7 +19,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, ""));
     }
 
 
@@ -50,6 +49,10 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this,JokeActivity.class);
         intent.putExtra("joke",joke.tellJoke());
         startActivity(intent);
+    }
+
+    public void gceJoke(View view){
+        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, ""));
     }
 
 
