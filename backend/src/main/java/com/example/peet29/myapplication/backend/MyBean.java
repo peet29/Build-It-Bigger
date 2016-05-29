@@ -3,13 +3,14 @@ package com.example.peet29.myapplication.backend;
 /** The object model for the data we are sending through endpoints */
 public class MyBean {
 
-    private String myData;
+    private String joke;
 
     public String getData() {
-        return myData;
+        return joke;
     }
 
-    public void setData(String data) {
-        myData = data;
+    public void setJoke(String data)
+    {
+        joke = data;
     }
 }
